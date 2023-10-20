@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic Studio</title>
+    <link rel="stylesheet" href="mystyle.css"/>
+  </head>
+<body>
+  <!----------En header, der indeholder hjemmesindens navigationsmenu og logo i en flexbox, så layoutet vises vandret----------->
+  <header>
+    <div class="flex-container">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" />
+      </div>
+
+      <nav class="menu">
+        <div class="menu-item">
+          <a href="index.html">Forside</a>
+        </div>
+
+        <div class="menu-item">
+          <a href="#">Grafisk design</a>
+          <div class="submenu">
+            <a href="#">Hvad er grafisk design?</a>
+            <a href="side1.html">Stilarter</a>
+            <a href="#">Grafisk desingere</a>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <a href="#">Bliv grafisk designer</a>
+          <div class="submenu">
+            <a href="side2.html">Uddannelsesveje</a>
+            <a href="#">Job og løn</a>
+            <a href="#">Kurser</a>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <a href="#">Byer</a>
+          <div class="submenu">
+            <a href="#">København</a>
+            <a href="side3.html">Aarhus</a>
+            <a href="#">Odense</a>
+            <a href="">Aalborg</a>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <a href="#">Kontakt</a>
+          <div class="submenu"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+      <div class="overskrift">
+        <h2>Stilarter</h2>
+      </div>
+
+      <div class="tekst1">
+        <p>
+          Grafisk design er en kunstform, der er alt fra enkel minimalisme til
+          farverig og udtryksfuldt streetart. Hver stilart har hver deres unikke
+          måde at kommunikere budskaber på og formidle visuelle udtryk. Valget
+          af den stil, som du vælger, afhænger af hvad du ønsker, der skal
+          kommunikeres og hvilken målgruppe, du gerne vil ramme. Nogle af de
+          mest populære stilarter inden for grafisk design er:
+        </p>
+      </div>
+
+    <!-- Brødtekst sat op i flexbox, så artiklen får det rette layout -->
+    <section class="artikler">
+      <section class="artikel">
+        <div class="kombi">
+          <img class="billeder" src="img/stol.png" alt="stol" />
+          <div>
+            <p class="brødteksttitel">Minimalisme</p>
+            <p class="brødteksttekst">
+              Minimalistisk design handler om at skabe enkelthed ved at nedtone
+              visuelle elementer og gøre dem essentielle. Det kan du gøre ved
+              brug af det negative rum, og begrænse farver og former - det
+              skaber noget rent og æstetisk. Man bruger oftest minimalistisk
+              design i branding, da det giver et stilfuldt og tidløst udtryk.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="artikel">
+        <div class="kombi">
+          <div>
+            <p class="brødteksttitel">Typografi</p>
+            <p class="brødteksttekst">
+              Typografi er et speciale indenfor design, der har til hensigt, at
+              behandle tekst ud fra forskellige overvejelser, så som æstetik og
+              funktionalitet. Her handler det om, at skabe typografi, der er
+              iøjnefaldende, men stadig har betydning og relevans, da det er
+              vigtigt del af markedsføring.
+            </p>
+          </div>
+          <img class="billeder" src="img/typografi.png" alt="typografi" />
+        </div>
+      </section>
+
+      <section class="artikel">
+        <div class="kombi">
+          <img class="billeder" src="img/graffiti.png" alt="graffiti" />
+          <div>
+            <p class="brødteksttitel">Graffiti og street art</p>
+            <p class="brødteksttekst">
+              Graffiti og street art er en udtryksfuld form for grafisk design,
+              der typisk udfolder sig i det offentlige rum. Dog adskiller disse
+              to stilarter sig fra hinanden - graffiti er ord og bogstaver, hvor
+              street art er mere kunstnerisk og motivbaseret. Begge stilarter
+              bidrager med et unikt udtryk til bymiljøer.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
